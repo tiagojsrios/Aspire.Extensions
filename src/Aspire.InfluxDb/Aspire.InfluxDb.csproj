@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <PropertyGroup>
-        <PackageId>Aspire.InfluxDb</PackageId>
+        <PackageId>InfluxDb.Aspire</PackageId>
         <Version>0.0.0</Version>
         <Authors>Tiago Rios (@tiagojsrios)</Authors>
         <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © tiagojsrios</Copyright>
