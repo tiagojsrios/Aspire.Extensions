@@ -1,4 +1,4 @@
-name: Build and release
+name: SqlServer Build & Release
 
 on:
   push:
@@ -33,10 +33,10 @@ jobs:
         dotnet-version: ${{env.DOTNET_VERSION}}
 
     - name: Build project
-      run: dotnet build src/
+      run: dotnet build src/Aspire.SqlServer/
            -c Release
            /p:ContinuousIntegrationBuild=true
-           /p:Version=${PKG_VERSION#v}
+           /p:Version=${PKG_VERSION#SqlServer/v}
 
     - name: Upload package as artifact
       uses: actions/upload-artifact@v4

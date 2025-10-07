@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.InfluxDb", "Aspire.InfluxDb\Aspire.InfluxDb.csproj", "{9AE9E903-34A1-4391-B75D-FCB2B2FDD157}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.SqlServer", "Aspire.SqlServer\Aspire.SqlServer.csproj", "{07916B1B-D161-48B7-91FF-11979778E54D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9AE9E903-34A1-4391-B75D-FCB2B2FDD157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE9E903-34A1-4391-B75D-FCB2B2FDD157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE9E903-34A1-4391-B75D-FCB2B2FDD157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07916B1B-D161-48B7-91FF-11979778E54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07916B1B-D161-48B7-91FF-11979778E54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07916B1B-D161-48B7-91FF-11979778E54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07916B1B-D161-48B7-91FF-11979778E54D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

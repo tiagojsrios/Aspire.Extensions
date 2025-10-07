@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Aspire.Hosting.Azure.Sql" Version="9.4.2" />
+        <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.0.94" />
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <PackageId>Extensions.Aspire.SqlServer</PackageId>
+        <Version>0.0.0</Version>
+        <Authors>Tiago Rios (@tiagojsrios)</Authors>
+        <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © tiagojsrios</Copyright>
+        <Description>Extensions for SQL Server Aspire integration</Description>
+        <PackageProjectUrl>https://github.com/tiagojsrios/Aspire.Extensions</PackageProjectUrl>
+        <PackageTags>dotnet;aspire;hosting;sqlserver</PackageTags>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <EnablePackageValidation>true</EnablePackageValidation>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include=".\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
