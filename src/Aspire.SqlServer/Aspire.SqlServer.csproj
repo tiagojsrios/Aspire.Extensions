@@ -8,8 +8,8 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <PackageReference Include="Aspire.Hosting.Azure.Sql" Version="9.4.2" />
-        <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.0.94" />
+        <PackageReference Include="Aspire.Hosting.Azure.Sql" Version="9.5.1" />
+        <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.2.70" />
         <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All"/>
     </ItemGroup>
 

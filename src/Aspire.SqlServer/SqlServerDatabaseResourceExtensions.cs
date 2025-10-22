@@ -72,6 +72,7 @@ public static class SqlServerDatabaseResourceExtensions
                      "When the file is not found, this prompt is used as a fallback and it allows you to specify the absolute path of the .bacpac file used for the import.",
             input: new InteractionInput
             {
+                Name = "Bacpac file location input",
                 Label = ".bacpac file location",
                 InputType = InputType.Text,
                 Required = true
