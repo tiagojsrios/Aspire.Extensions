@@ -58,7 +58,8 @@ public static class SqlServerDatabaseResourceExtensions
                 {
                     Success = true
                 };
-            }
+            },
+            commandOptions: null
         );
     }
 
